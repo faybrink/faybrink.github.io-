@@ -31,12 +31,12 @@
 {"@type":"Question","name":"Is the builder's sales agent working for me?","acceptedAnswer":{"@type":"Answer","text":"No. The on-site sales representative is paid by and works for the builder. They are skilled and helpful, but their job is to maximize the builder's outcome. Your own buyer's agent levels the playing field and negotiates on your behalf."}},
 {"@type":"Question","name":"Can I still get a better deal on new construction with builder incentives?","acceptedAnswer":{"@type":"Answer","text":"Often yes. Builders advertise incentives like rate buydowns, upgrade credits, and closing-cost assistance — but those are starting points. An experienced new-home agent knows which incentives are negotiable, when builders are most motivated (end of quarter, standing inventory), and how to structure the contract to capture more value."}},
 {"@type":"Question","name":"Should I use the builder's preferred lender?","acceptedAnswer":{"@type":"Answer","text":"The builder's lender sometimes offers genuine incentives, but not always the best overall terms. Compare their Loan Estimate against at least one outside lender. Sometimes the incentive is real savings; sometimes it's offset elsewhere. Comparing protects you."}},
-{"@type":"Question","name":"Do I need a home inspection on a brand-new home?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. New does not mean flawless. Independent inspections — including at framing/pre-drywall and final walkthrough — routinely catch issues that are far easier to fix before closing than after. Never skip inspection just because the home is new."}}]}
+{"@type":"Question","name":"Do I need a home inspection on a brand-new home?","acceptedAnswer":{"@type":"Answer","text":"Please do, every time. A brand-new house can still have crossed wires behind the drywall or a slab issue nobody caught, and this is Houston, so you want eyes on the foundation and the drainage in particular. A good independent inspection at the pre-drywall stage and again before closing catches the kind of thing that is a quick fix now and a expensive headache later. New does not mean perfect, it just means nobody has lived there to find the problems yet."}}]}
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;500&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
-    :root{--navy:#191C45;--gold:#D6A24A;--cream:#FAE9C1;--gold-light:#e8c07a;--navy-light:#252966;--muted:rgba(250,233,193,0.6);--text:#1a1a2e;--bg:#faf8f4;--bg2:#f3f0ea;}
+    :root{--navy:#191C45;--gold:#D6A24A;--cream:#FAE9C1;--gold-light:#e8c07a;--navy-light:#252966;--muted:rgba(250,233,193,0.8);--text:#1a1a2e;--bg:#faf8f4;--bg2:#f3f0ea;}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
     html{scroll-behavior:smooth;}
     body{background:var(--bg);color:var(--text);font-family:'Raleway',sans-serif;font-weight:300;line-height:1.8;overflow-x:hidden;}
@@ -61,7 +61,7 @@
     .help-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem;margin-top:1.5rem;}
     .help-card{background:#fff;border:1px solid rgba(25,28,69,0.08);border-top:3px solid var(--gold);padding:1.5rem;}
     .help-card h3{font-family:'Cinzel',serif;font-size:0.98rem;color:var(--navy);letter-spacing:0.03em;font-weight:500;margin-bottom:0.6rem;}
-    .help-card p{font-size:0.88rem;color:#555;line-height:1.7;margin:0;}
+    .help-card p{font-size:0.88rem;color:#33333f;line-height:1.7;margin:0;}
     .authority{background:var(--navy);padding:3rem 6vw;}
     .authority-inner{max-width:820px;margin:0 auto;display:grid;grid-template-columns:140px 1fr;gap:2rem;align-items:center;}
     .authority img{width:140px;height:160px;object-fit:cover;object-position:center 15%;border:2px solid var(--gold);}
@@ -73,7 +73,7 @@
     .step{display:flex;gap:1.25rem;margin-bottom:1.5rem;align-items:flex-start;}
     .step-num{flex-shrink:0;width:38px;height:38px;border-radius:50%;background:var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-family:'Cinzel',serif;font-weight:500;font-size:1rem;}
     .step-body h3{font-family:'Cinzel',serif;font-size:1rem;color:var(--navy);margin-bottom:0.3rem;letter-spacing:0.02em;font-weight:500;}
-    .step-body p{font-size:0.92rem;color:#555;line-height:1.7;margin:0;}
+    .step-body p{font-size:0.92rem;color:#33333f;line-height:1.7;margin:0;}
     .area-links{display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;margin-top:1.5rem;}
     .area-link{background:#fff;border:1px solid rgba(25,28,69,0.1);border-bottom:3px solid var(--gold);padding:0.9rem 1.5rem;text-decoration:none;transition:transform .25s,box-shadow .25s;}
     .area-link:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(25,28,69,0.08);}
@@ -85,7 +85,7 @@
     .faq-q.open .faq-arrow{transform:rotate(180deg);}
     .faq-a{display:none;padding:0 0 1rem;}
     .faq-a.open{display:block;}
-    .faq-a p{font-size:0.92rem;color:#555;line-height:1.75;margin:0;}
+    .faq-a p{font-size:0.92rem;color:#33333f;line-height:1.75;margin:0;}
     .cta-strip{background:linear-gradient(135deg,var(--navy-light),var(--navy));padding:3.5rem 6vw;text-align:center;}
     .cta-strip h2{font-family:'Cinzel',serif;font-size:clamp(1.3rem,3vw,1.9rem);color:var(--cream);margin-bottom:0.75rem;font-weight:400;}
     .cta-strip h2::after{display:none;}
@@ -125,10 +125,10 @@
 </section>
 
 <div class="section">
-  <p class="lead">The friendly agent in the model home is wonderful — but they work for the builder. You deserve someone who works for you.</p>
-  <p>Buying new construction feels different from buying a resale home, and that difference catches a lot of buyers off guard. The model homes are beautiful, the sales representatives are warm and knowledgeable, and the process feels reassuringly simple. What many buyers don't realize is that the on-site agent is paid by — and represents — the builder. Their job, done well, is to maximize the builder's outcome.</p>
-  <p>That's not a criticism; it's just how new construction works. But it means that when you walk into a model home without your own representation, you're negotiating one of the largest purchases of your life with no one advocating solely for you.</p>
-  <div class="alert-box"><p>Here's the part most buyers don't know: in almost every case, the builder pays the buyer's agent commission. So bringing your own specialist costs you nothing — and can save you a great deal.</p></div>
+  <p class="lead">That lovely person who meets you at the model home with a cold bottle of water and a smile? They are genuinely delightful. They also work for the builder, and that is a distinction worth more than most folks realize.</p>
+  <p>I want to let you in on something about model homes, because I have walked through more of them than I can count out here in Katy, Cypress, and Fulshear. Every last detail in that house is designed to make you fall in love and quit doing arithmetic. The lighting is warmer than your real home will ever be. The furniture is scaled down a touch so the bedrooms feel like ballrooms. There is probably something cinnamon baking somewhere. None of that is dishonest, exactly, but it is theater, and the friendly agent giving you the tour is part of the production. Their job, and they are usually very good at it, is to get the builder the best possible outcome. So when you stroll in on your own, you are sitting down to negotiate one of the biggest purchases of your life across the table from a charming professional whose loyalty, politely, belongs to the other side.</p>
+  <p>Now here is the part that makes people sit up, and it is my favorite thing to tell a nervous first-time buyer. In nearly every case, the builder pays your agent's commission, not you. Where I come from we call a little something extra that costs you nothing <em>lagniappe</em>, and honest representation in a new-build deal is about the best lagniappe in real estate. Bringing your own specialist runs you nothing out of pocket and routinely saves you a good deal more than zero. Folks walk right past that every single day, and it costs them.</p>
+  <div class="alert-box"><p>Think of me as the one reading every line of the fine print so you can keep daydreaming about that kitchen island, and it does not cost you a dime.</p></div>
 </div>
 
 <div class="section">
@@ -190,7 +190,7 @@
 
 <div class="section">
   <h2>New Construction Hotspots</h2>
-  <p style="text-align:center;">Some of Houston's best new-construction value is in the corridors I serve most. Explore the area guides:</p>
+  <p style="text-align:center;">Some of the best new-construction value in the whole metro is sitting out along the western corridors where I spend most of my days. These three are where the builders are busiest and the deals are liveliest right now, and I have written a proper guide to each one.</p>
   <div class="area-links">
     <a href="blog-living-in-katy-tx.html" class="area-link"><small>Area Guide</small><span>Katy</span></a>
     <a href="blog-living-in-cypress-tx.html" class="area-link"><small>Area Guide</small><span>Cypress</span></a>
@@ -204,7 +204,7 @@
 <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is the builder's sales agent working for me?<span class="faq-arrow">&#9662;</span></button><div class="faq-a"><p>No. The on-site sales representative is paid by and works for the builder. They are skilled and helpful, but their job is to maximize the builder's outcome. Your own buyer's agent levels the playing field and negotiates on your behalf.</p></div></div>
 <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I still get a better deal on new construction with builder incentives?<span class="faq-arrow">&#9662;</span></button><div class="faq-a"><p>Often yes. Builders advertise incentives like rate buydowns, upgrade credits, and closing-cost assistance — but those are starting points. An experienced new-home agent knows which incentives are negotiable, when builders are most motivated (end of quarter, standing inventory), and how to structure the contract to capture more value.</p></div></div>
 <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Should I use the builder's preferred lender?<span class="faq-arrow">&#9662;</span></button><div class="faq-a"><p>The builder's lender sometimes offers genuine incentives, but not always the best overall terms. Compare their Loan Estimate against at least one outside lender. Sometimes the incentive is real savings; sometimes it's offset elsewhere. Comparing protects you.</p></div></div>
-<div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do I need a home inspection on a brand-new home?<span class="faq-arrow">&#9662;</span></button><div class="faq-a"><p>Absolutely. New does not mean flawless. Independent inspections — including at framing/pre-drywall and final walkthrough — routinely catch issues that are far easier to fix before closing than after. Never skip inspection just because the home is new.</p></div></div>
+<div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do I need a home inspection on a brand-new home?<span class="faq-arrow">&#9662;</span></button><div class="faq-a"><p>Please do, every time. A brand-new house can still have crossed wires behind the drywall or a slab issue nobody caught, and this is Houston, so you want eyes on the foundation and the drainage in particular. A good independent inspection at the pre-drywall stage and again before closing catches the kind of thing that is a quick fix now and a expensive headache later. New does not mean perfect, it just means nobody has lived there to find the problems yet.</p></div></div>
 </div>
 
 <section class="cta-strip">
